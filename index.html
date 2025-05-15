@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JS Event Playground 🎯</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Welcome to the JavaScript Playground 🎉</h1>
+
+  <!-- Event Handling -->
+  <button id="clickBtn">Click Me!</button>
+  <div id="hoverBox">Hover over me!</div>
+  <input type="text" id="keypressInput" placeholder="Type something..." />
+  <button id="secretBtn">Secret Action (double-click)</button>
+
+  <!-- Interactive Elements -->
+  <button id="colorChanger">Change Color</button>
+  <div class="gallery">
+    <img src="https://via.placeholder.com/150" id="galleryImage" />
+    <button id="nextImage">Next Image</button>
+  </div>
+
+  <div class="tabs">
+    <button class="tabBtn" data-tab="1">Tab 1</button>
+    <button class="tabBtn" data-tab="2">Tab 2</button>
+    <div id="tab1" class="tabContent">This is Tab 1 content.</div>
+    <div id="tab2" class="tabContent">This is Tab 2 content.</div>
+  </div>
+
+  <!-- Form Validation -->
+  <form id="myForm">
+    <input type="text" id="name" placeholder="Name" required />
+    <input type="email" id="email" placeholder="Email" required />
+    <input type="password" id="password" placeholder="Password" required />
+    <button type="submit">Submit</button>
+    <div id="formFeedback"></div>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
